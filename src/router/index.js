@@ -5,10 +5,6 @@ export default createRouter({
   routes: [
     {
       path: '/',
-      redirect: '/screen'
-    },
-    {
-      path: '/screen',
       component: () => import('@/views/ScreenPage.vue')
     }
   ]
